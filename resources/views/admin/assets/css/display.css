@@ -1,0 +1,245 @@
+/** Font **/
+@import url('../fonts/font-family.css');
+
+/** Display **/
+html, body {
+	direction: rtl;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #C0DEED url('../img/bg-color.jpg') repeat-x top left;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-attachment: fixed;
+	font-family: Tahoma;
+	font-size: 13px;
+	color: black;
+}
+a, a:hover {
+	text-decoration: none;
+}
+a {
+	color: rgb(90, 90, 90);
+}
+a:hover {
+	color: #101010;
+}
+
+/** Easy **/
+h2 {
+	margin: 8px 0 8px 0;
+	padding: 0;
+	font-family: "segoi UI", Arial;
+	font-size: 20px;
+	font-weight: bolder;
+	color: rgb(201, 80, 152);
+}
+hr {
+	margin: 5px 0 5px 0;
+	padding: 0;
+	border: none;
+	border-top: 1px dashed rgba(124, 181, 192, 0.47);
+}
+/** Layout **/
+.fright {
+	float: right;
+}
+.fleft {
+	float: left;
+}
+
+#top {
+	height: 40px;
+	line-height: 40px;
+	background: #232323 url('../img/topbg.png') repeat-x top;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.75);
+}
+#top .topcontent {
+	width: 800px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	font-weight: bolder;
+	color: #bbb;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.75);
+}
+#top .toolbar {
+	position: relative;
+	top: 8px;
+}
+#top .toolbar a {
+	color: black;
+	text-shadow: none;
+}
+#top .toolbar a:hover {
+	color: #245269;
+	text-shadow: none;
+}
+
+#top a {
+	color: #bbb;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.75);
+}
+#top a:hover {
+	color: white;
+}
+#top .h1 {
+	font-family: "Cocon", Arial;
+	font-size: 25px;
+}
+#top small {
+	position: relative;
+	top: -5px;
+	font-size: 12px;
+	color: rgb(240, 207, 147);
+}
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+#wrapper .wcontent {
+	overflow: hidden;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.35);
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.qucbar {
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 5px;
+	padding: 0 5px 0 5px;
+	background-color: white;
+	border-radius: 5px;
+}
+.blockright {
+	float: right;
+	width: 200px;
+}
+.blockgroup {
+	margin-bottom: 3px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: 1px solid silver;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+span.blocktitle {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px dashed silver;
+	font-family: "DroidKufi", Arial;
+	font-size: 15px;
+	text-align: center;
+}
+.blockcontent {
+	padding: 5px;
+}
+.blockitem {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.blockitem > li {
+	margin-bottom: 2px;
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-weight: bolder;
+}
+.blockitem > li > a {
+	display: block;
+	padding: 5px;
+	background: transparent url('../img/menu-arr.png') no-repeat left;
+	background-position: 5%;
+}
+.blockitem > li > a:hover {
+	background: transparent url('../img/menu-arrhov.png') no-repeat left;
+	background-position: 5%;
+}
+.snip {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.snip > li {
+	margin-bottom: 2px;
+	padding-right: 10px;
+	
+}
+.snip > li > a {
+	padding-right: 2px;
+	border-right: 1px dashed rgb(122, 122, 122);
+	color: #245269;
+}
+.collapsed:after {
+	content: '↓';
+	float: left;
+}
+.blockleft {
+	float: left;
+	width: 579px;
+}
+.blocklcontent {
+	background-color: white;
+	border: 1px solid silver;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+span.blockltitle {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px dashed silver;
+	font-family: "DroidKufi", Arial;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #8d1645;
+}
+.blocklconter {
+	padding: 5px;
+}
+#footer {
+	margin-top: 10px;
+	text-align: center;
+}
+.clear {
+	height: 20px;
+}
+
+/** Form **/
+.form {
+	
+}
+.form .formgroup {
+	display: block;
+	margin-bottom: 5px;
+}
+.form label {
+	float: right;
+	width: 30%;
+	line-height: 34px;
+}
+.form .input-text {
+	width: 65%;
+}
+.form .submit {
+	display: block;
+	margin: 0 auto;
+}
+.table th, .table td {
+	text-align: center;
+}
+/** Bootstrap **/
+.btn {
+	vertical-align: 0;
+}
